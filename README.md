@@ -13,7 +13,8 @@
 5. Modifiez le fichier `src/constants.ts` avec les options nécéssaires
 6. Invitez le bot
 7. Installez les dépendances (`pnpm install`), puis générez le code JS (`pnpm build`)
-8. Lancez le bot avec `pnpm start`
+8. Migrez la base de données (`pnpm db:migrate`)
+9. Lancez le bot avec `pnpm start`
 
 ### Conditions d'utilisation
 Le bot est opensource, sous licence AGPL 3.0, ce qui signifie que:
