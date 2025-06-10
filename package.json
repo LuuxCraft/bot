@@ -1,0 +1,30 @@
+{
+  "name": "luuxcraft-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "db:migrate": "prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
+    "dev": "tsx watch src",
+    "start": "node ."
+  },
+  "keywords": [],
+  "private": true,
+  "author": "GeekCorner",
+  "license": "AGPL-3.0-only",
+  "packageManager": "pnpm@10.11.1",
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "prisma": "^6.9.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  }
+}
